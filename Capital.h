@@ -6,10 +6,11 @@
 #include "City.h"
 
 class Capital : public City {
-    //string state;
+    string state;
 public:
     Capital(string name);
-    //string get_stateName();
+    Capital(string name, string state);
+    string get_stateName();
 
 };
 
