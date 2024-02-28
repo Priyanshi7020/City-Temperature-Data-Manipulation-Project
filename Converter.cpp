@@ -13,13 +13,13 @@ using namespace std;
 Converter::Converter() {
 	multiplier = 0;
 	offset = 0;
-	}
+}
 Converter::Converter(const double multiplier, const double offset) {
 	this->multiplier = multiplier;
 	this->offset = offset;
-	}
+}
 double Converter::converter(double num) {
 	return num * (double)multiplier + (double)offset;
-	}
+}
 
 #endif // 
