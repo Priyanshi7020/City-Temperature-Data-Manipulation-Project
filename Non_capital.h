@@ -7,7 +7,7 @@
 class Non_capital : public City
 {
 public:
-   Non_capital(string name);
+	Non_capital(string name);
 };
 
 #endif
