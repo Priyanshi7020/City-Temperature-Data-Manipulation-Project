@@ -57,7 +57,7 @@ public:
 
     double get_avg();
 
-    //virtual string get_stateName() { return ""; };
+    virtual string get_stateName() { return ""; };
 };
 
 #endif // !CITY_H
